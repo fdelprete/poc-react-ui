@@ -1,0 +1,18 @@
+.algolia-breadcrumb {
+  list-style: none;
+  display: flex;
+  font-size: 12px;
+
+  a {
+    color: #009c82;
+  }
+
+  &__separator {
+    margin: 5px;
+    color: #6ad9aa;
+  }
+
+  &--display-active {
+    cursor: pointer;
+  }
+}

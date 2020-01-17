@@ -1,0 +1,40 @@
+.algolia-refinement-list {
+  margin: 10%;
+  padding-bottom: 0;
+  background-color: #ffffff;
+
+  ul {
+    margin: 0;
+    list-style: none;
+    display: contents;
+    li {
+      label {
+        span {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
+  &__search-box {
+    margin-bottom: 5%;
+  }
+
+  &__item-count {
+    display: inline-block;
+    background-color: #e2f5ed;
+    color: #009c82;
+
+    border-radius: 4px;
+    margin-left: 8px;
+    padding: 2px 4px;
+  }
+
+  &--clear-list-button {
+    margin-top: 10%;
+  }
+
+  .ant-btn {
+    border-radius: 50px;
+  }
+}

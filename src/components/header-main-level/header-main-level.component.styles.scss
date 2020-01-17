@@ -1,0 +1,25 @@
+.cg-header__main-level {
+	display: flex;
+	background-color: #f9f9f9;
+
+	&--display-logo {
+		svg {
+			display: block;
+			text-indent: -9999px;
+			width: 100px;
+			background-size: 100px 82px;
+		}
+		margin-left: 1.5em;
+		margin-top: 0.25em;
+	}
+
+	&--display-navigation {
+		margin-top: 1.6em;
+		margin-right: 2.5%;
+	}
+
+	&--display-button {
+		margin-right: 2.5%;
+		margin-top: 1.6em;
+	}
+}

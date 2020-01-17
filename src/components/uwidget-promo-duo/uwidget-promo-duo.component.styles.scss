@@ -1,0 +1,14 @@
+.uwidget-promo-duo {
+  display: flex;
+  padding-top: 125px;
+  padding-bottom: 50px;
+  justify-content: center;
+
+  &--display-content {
+    margin: 1%;
+  }
+
+  img {
+    height: 100px;
+  }
+}

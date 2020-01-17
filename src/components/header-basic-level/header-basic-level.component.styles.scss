@@ -1,0 +1,17 @@
+.cg-header__basic-level {
+	height: 50px;
+	display: flex;
+	background-color: #2e3749;
+
+	&__info {
+		display: flex;
+		&--display-email {
+			color: #f9f9f9;
+			margin: 15px;
+		}
+		&--display-phone {
+			color: #f9f9f9;
+			margin: 15px;
+		}
+	}
+}

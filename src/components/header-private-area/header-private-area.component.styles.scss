@@ -1,0 +1,45 @@
+.cg-header {
+  z-index: 10;
+  width: 100%;
+  position: fixed;
+  box-shadow: 0 6px 10px 0 rgba(189, 187, 187, 0.12),
+    0 1px 18px 0 rgba(189, 187, 187, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.2);
+
+  &__main-level {
+    display: flex;
+    background-color: #f9f9f9;
+    padding-right: 30px;
+
+    &--display-logo {
+      svg {
+        display: block;
+        text-indent: -9999px;
+        width: 100px;
+        background-size: 100px 82px;
+      }
+      margin-left: 1.5em;
+      margin-top: 0.25em;
+    }
+
+    &--search-container {
+      margin-top: 1.5%;
+      width: 100%;
+    }
+
+    &--display-navigation {
+      margin-top: 1.6em;
+      margin-right: 2.5%;
+    }
+
+    &--display-button {
+
+      margin-right: 15px;
+      margin-top: 22px;
+    }
+  }
+}
+
+.ant-menu-horizontal {
+  background-color: #f9f9f9;
+  border-bottom: none;
+}

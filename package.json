@@ -1,0 +1,51 @@
+{
+  "name": "cloud-poc-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "algoliasearch": "^3.35.1",
+    "antd": "^3.26.7",
+    "node-sass": "^4.13.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-instantsearch-dom": "^6.0.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.3.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.8",
+    "typescript": "3.7.2",
+    "urlencode": "^1.1.0"
+  },
+  "scripts": {
+    "start": "PORT=3001 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/request-promise-native": "^1.0.17",
+    "@types/algoliasearch": "^3.34.5",
+    "@types/jest": "^24.0.22",
+    "@types/node": "^12.12.7",
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.4",
+    "@types/react-instantsearch-dom": "^5.2.6",
+    "@types/react-router-dom": "^5.1.2",
+    "@types/urlencode": "^1.1.1"
+  }
+}

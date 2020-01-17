@@ -1,0 +1,15 @@
+.algolia-hierarchical-menu {
+  padding-left: 10%;
+
+  background-color: #ffffff;
+
+  ul {
+    list-style: none;
+    display: contents;
+  }
+
+  span {
+    font-size: 12px;
+    cursor: pointer;
+  }
+}
