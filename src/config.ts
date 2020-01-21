@@ -1,10 +1,15 @@
-export const ALGOLIA_APPLICATION_ID = "";
-export const ALGOLIA_API_KEY = "";
-export const ALGOLIA_INDEX_NAME = "";
+import getStringValue from './utils/helpers/getStringValue';
+
+
+const env = (window as any)._env_ || {};
+
+export const ALGOLIA_APPLICATION_ID = env.REACT_APP_ALGOLIA_APPLICATION_ID;
+export const ALGOLIA_API_KEY = env.REACT_APP_ALGOLIA_API_KEY;
+export const ALGOLIA_INDEX_NAME = env.REACT_APP_ALGOLIA_INDEX_NAME;
 
 const config = {
   apiUrl: {
-    dev: "http://localhost:3000/api/product"
+    dev: getStringValue(env.REACT_APP_API_URL, 'http://localhost:3000/api/product'),
   },
   components: {
     announcements: {
