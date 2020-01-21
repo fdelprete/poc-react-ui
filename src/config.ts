@@ -1,6 +1,3 @@
-import getStringValue from './utils/helpers/getStringValue';
-
-
 const env = (window as any)._env_ || {};
 
 export const ALGOLIA_APPLICATION_ID = env.REACT_APP_ALGOLIA_APPLICATION_ID;
