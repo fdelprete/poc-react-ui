@@ -9,7 +9,7 @@ export const ALGOLIA_INDEX_NAME = env.REACT_APP_ALGOLIA_INDEX_NAME;
 
 const config = {
   apiUrl: {
-    dev: getStringValue(env.REACT_APP_API_URL, 'http://localhost:3000/api/product'),
+    dev: env.REACT_APP_API_URL,
   },
   components: {
     announcements: {
